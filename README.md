@@ -2,18 +2,13 @@
 Yi-hack project
 ===============
 
-Personnal note - 4 october 2016
-===============================
+Fork of the yi-hack project by fritz-smh. This fork includes the following changes:
+- DHCP and hostname support (by airdrummingfool)
+- Disable of eth0 with static IP address (by airdrummingfool)
+- Voices fixed and can be turned on/off in config (by airdrummingfool)
+- Waiting till ntpd completes before starting further (by airdrummingfool)
+- Check_motion script working again and can call a REST-endpoint (by airdrummingfool)
 
-Hi, I am Fritz, the one who created this project. Since summer 2016, I have a lot of other topics to work on (especially the Domogik home automation project) and I have nearly to time for this project.
-
-I would like to say THANK YOU to the people who are currently helping the others in the issues opened and who have submitted some pull requests! Your help is really welcome and I am very happy that this project  is interesting to many people !!!
-
-Thanks again to all of you, users and contributors !
-
-If one of the regular contributor wish to got some administrator permissions to this repository, please, just create an issue and I will be happy to give you the access.
-
--- Fritz
 
 Purpose
 =======
@@ -106,7 +101,7 @@ How can I know which is the version of a firmware 'home' file ?
 
 Just do : **strings home  | grep version**. Example :
 
-    $ strings home  | grep 1.8.5
+    $ strings home  | grep version
     version=1.8.5.1M_201512011815
 
 
