@@ -7,6 +7,7 @@ Fork of the yi-hack project by fritz-smh. This fork includes the following chang
 - Voices fixed and can be turned on/off in config (by airdrummingfool)
 - Waiting till ntpd completes before starting further (by airdrummingfool)
 - Check_motion script working again and can call a REST-endpoint (by airdrummingfool)
+- Upload using WebDAV to for example STACK (by jorik90; change your settings in check_motion.sh)
 
 
 Purpose
