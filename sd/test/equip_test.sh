@@ -117,7 +117,8 @@ cd /home/3518
 himm 0x20050074 0x06802424
 
 ### Let ppl hear that we start
-boot_voice "/home/hd1/test/voice/welcome.g726"
+#don't play the annoying tune
+#boot_voice "/home/hd1/test/voice/welcome.g726"
 boot_voice "/home/hd1/test/voice/wait.g726"
 
 ### start blinking blue led for configuration in progress
