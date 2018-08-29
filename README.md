@@ -1,6 +1,5 @@
-===============
-Yi-hack project
-===============
+Yi-hack project fork with fixes
+===========
 
 Fork of the yi-hack project by fritz-smh. This fork includes the following changes:
 - DHCP and hostname support (by airdrummingfool)
