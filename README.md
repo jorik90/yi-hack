@@ -8,6 +8,7 @@ Fork of the yi-hack project by fritz-smh. This fork includes the following chang
 - Waiting till ntpd completes before starting further (by airdrummingfool)
 - Check_motion script working again and can call a REST-endpoint (by airdrummingfool)
 - Upload using WebDAV to for example STACK (by jorik90; change your settings in check_motion.sh)
+- Watchdog for checking read-only state of /tmp/hd1 (by [airdrummingfool](https://github.com/fritz-smh/yi-hack/issues/56#issuecomment-296425307))
 
 
 Purpose
