@@ -463,6 +463,9 @@ ps >> ${LOG_FILE}
 log "Storage status :"
 df -h >> ${LOG_FILE}
 
+### Start watchdog for write status of hd1
+/home/hd1/test/services/rw_watch.sh start >> /home/hd1/test/log.txt &
+
 ### to make sure log are written...
 
 sync
